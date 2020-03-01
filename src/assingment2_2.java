@@ -8,4 +8,4 @@ public class  assingment2_2{
     }
     
   }
-}//End main 
+//End main 
