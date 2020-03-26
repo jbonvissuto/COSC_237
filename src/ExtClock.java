@@ -27,6 +27,14 @@ public class ExtClock extends Clock {
    super.printTime();
    System.out.print(":" + getTimeZone());
   }
+  
+  public boolean equals(ExtClock otherClock)
+  {
+    return (super.equals(otherClock) && zone == otherClock.zone);
+  }
+  
+  
+  
 }
 
 
