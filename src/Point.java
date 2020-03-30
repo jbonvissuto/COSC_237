@@ -8,7 +8,7 @@ public class Point
    		//Default constructor
    	public Point()
    	{
-      	setPoint( 0, 0 );
+      	setPoint(0, 0);
    	}
 
    		//Constructor with parameters
