@@ -38,5 +38,10 @@ public class assingment3_2driver{
 	System.out.println();
 	System.out.print("circle1's area is: ");  circle3.printArea(); System.out.print( " and it's circumfrence is: ");  circle3.printCircumference();
 	System.out.println();
+	Circle circle4 = new Circle();
+	circle4.makeCopy(circle3);
+	   System.out.println("Made circle4 and copied the properties of circle3 into it");
+	   System.out.print("Circle4: "); circle4.printCircle();
+	   System.out.println();
 	}
   }

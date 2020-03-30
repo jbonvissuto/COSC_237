@@ -38,7 +38,7 @@ public class assingment3_3driver {
 		System.out.println("Copying the properties of Cylinder 2 into Cylinder3");
 		cylinder3.makeCopy(cylinder2);
 		System.out.println("Cylinder2: " + cylinder2);
-		System.out.println("Cylinder3: " + cylinder3);
+		System.out.println("Cylinder3: ");  cylinder3.printCylinder();
 		System.out.print("The surface area of Cylinder1 is: "); cylinder1.printSurfaceArea();
 		System.out.println();
 		System.out.print("The volume of Cylinder1 is: ");  cylinder1.printVolume();

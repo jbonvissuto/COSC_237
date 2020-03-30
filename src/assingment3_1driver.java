@@ -5,7 +5,7 @@
 public class assingment3_1driver{
   public static void main(String arg[]){
    ExtClock clock1 = new ExtClock(6,1,0,"KST");
-   ExtClock clock2 = new ExtClock();
+   ExtClock clock2 = new ExtClock();   
    System.out.print("Clock1 : "); clock1.printTime();
    System.out.println();
    System.out.print("Clock2 : "); clock2.printTime();
@@ -29,6 +29,11 @@ public class assingment3_1driver{
    clock1.setTimeZone("EST");
    System.out.println("Set the time zone of clock1 to " + clock1.getTimeZone());
    System.out.print("Clock1 : "); clock1.printTime();
+   System.out.println();
+   ExtClock clock3 = new ExtClock();
+   clock3.makeCopy(clock1);
+   System.out.println("Made clock3 and copied the properties of clock1 into it");
+   System.out.print("Clock3 : "); clock3.printTime();
    System.out.println();
   }
 }
