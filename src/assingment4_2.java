@@ -17,25 +17,17 @@ public class assingment4_2 {
 		if(y == 0)
 			return 1;
 		else if(y == 1) {
-			System.out.println("y == 1");
 			return x;
 		}
 		else if(y == -1) {
-			System.out.println("y == -1");
-			
-			System.out.println(x);
-			System.out.println(y);
 			return 1.0/x;
 		}
 		else if (y>1) {
-			System.out.println("y>1");
 			return power(x*x, y -1);
 		}
 		else if(y<-1) {
-			System.out.println("y<-1");
 			return  power(x*x, y +1 );
 		}
-		System.out.println("base case");
 		return power(x,y);
 	}
 

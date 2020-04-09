@@ -1,7 +1,8 @@
 //COSC 237-101
 //Name: Jackson K. Bonvissuto
 //ID: 0716190
-public class assingment2_4driver {
+//Change Person_old to Person and change Person to Person_new and then uncomment this code
+/*public class assingment2_4driver {
 
 	public static void main(String[] args) {
 	Person a = new Person ("Jackson", "Kirkwood", "Bonvissuto");
@@ -42,3 +43,4 @@ public class assingment2_4driver {
 
 	
 }
+*/
