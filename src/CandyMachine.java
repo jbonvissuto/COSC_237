@@ -20,7 +20,7 @@ public class CandyMachine
   }
   
   //Constructor to set each components with user input values
-  public CandyMachine()
+  public CandyMachine( int a, int b)
   {
     Scanner console = new Scanner(System.in);
     
@@ -34,7 +34,7 @@ public class CandyMachine
   // Switch on the CandyMachine for operations
   public void On()
   {
-    Scanner input = new Scanner(System.in)
+    Scanner input = new Scanner(System.in);
     int choice;                   //variable to hold the selection    
     showSelection();              //Display the hint
     choice = input.nextInt();     //Make choice

@@ -26,6 +26,7 @@ public class Dispenser
   //Postcondition: The value of the instance variable numberOfItems is returned.
   public int getCount()
   {
+	  return 0;
     // -- Your Code Here
   }
   
@@ -33,6 +34,7 @@ public class Dispenser
   //Postcondition: The value of the instance variable cost is returned.
   public int getProductCost()
   {
+	  return 0;
     // -- Your Code Here
   }
   

@@ -85,6 +85,7 @@ public class Course
     //Postcondition: The value of courseNo is returned.
     public String getCourseNumber()
     {
+    	return "placehlder";
       // -- Your Implementation
     }
 
@@ -93,6 +94,7 @@ public class Course
     //is returned.
     public int getCredits()
     {
+    	return 0;
       // -- Your Implementation
     }
 

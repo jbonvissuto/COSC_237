@@ -22,6 +22,7 @@ public class CashRegister
   //Postcondition: The value of the instance variable cashOnHand is returned.
   public int currentBalance()
   {
+	  return 0 ;
     // -- Your Code Here
   }
   
